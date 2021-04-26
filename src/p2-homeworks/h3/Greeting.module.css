@@ -1,0 +1,55 @@
+.greeting {
+    display: flex;
+    align-items:flex-end;
+}
+.error {
+    color: #c70707;
+    height: 21px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+.input {
+    margin: 10px;
+    width: 200px;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #16a085;
+    box-shadow: 0 0 10px #16a085;
+}
+
+.errorInput {
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #c70707;
+    box-shadow: 0 0 10px #c70707;
+    border-radius: 7px;
+}
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: #29be0b;
+    color: #200bc6;
+    outline: none;
+}
+.button:focus {
+    outline: #200bc6;
+}
+.button.active {
+    background: #29be0b;
+}
+.button:disabled {
+    color: orange;
+}
+
+.count {
+    margin: 10px;
+}

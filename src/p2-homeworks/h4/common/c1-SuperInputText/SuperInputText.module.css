@@ -1,0 +1,32 @@
+.input:focus {
+    outline: none;
+    border-color: #16a085;
+    box-shadow: 0 0 10px #16a085;
+}
+
+.superInput {
+    margin: 10px;
+    width: 200px;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.errorInput {
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #c70707;
+    box-shadow: 0 0 10px #c70707;
+    border-radius: 7px;
+}
+
+.error {
+    color: #c70707;
+    height: 21px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
