@@ -1,3 +1,4 @@
 .App {
+    min-height: 100vh;
     background-image: url("https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/Telegram/Resources/art/bg_initial.jpg");
 }
