@@ -1,7 +1,15 @@
 .link{
     text-decoration: none; /*убрать подчеркивание с сылки*/
-    color: #200bc6;
     margin: 10px;
+    color: rgba(0,0,0,0.2);
+    font-weight: 700;
+    text-shadow: none;
+}
+.link:before{
+    color: #fff;
+    content: attr(data-hover);
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 .link:hover{
@@ -19,6 +27,7 @@
 
     background: #c70707;
 }
+
 .header {
     display: flex;
 

@@ -1,0 +1,10 @@
+.span{
+    cursor: pointer;
+    display: inline-block;
+
+    padding-top: 10px;
+    font-size: 1.5rem;
+    color: #FA7722;
+}
+
+
