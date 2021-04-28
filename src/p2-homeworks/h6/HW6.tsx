@@ -27,7 +27,7 @@ function HW6() {
                 />
             </div>
             <SuperButton onClick={save}>save</SuperButton>
-            <SuperButton onClick={restore}>restore</SuperButton>
+            <SuperButton onClick={restore} red>restore</SuperButton>
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
