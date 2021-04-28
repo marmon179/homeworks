@@ -1,7 +1,7 @@
 .link{
     text-decoration: none; /*убрать подчеркивание с сылки*/
     margin: 10px;
-    color: rgba(0,0,0,0.2);
+    color: #8fa7a2;
     font-weight: 700;
     text-shadow: none;
 }
@@ -13,10 +13,10 @@
 }
 
 .link:hover{
-    color: #29be0b;
+    color: #1abc9c;
 }
 .active {
-    color: #840021;
+    color: #FAAB22;
 }
 
 .block {
