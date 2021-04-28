@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/homeworks/static/css/main.e2e0a11c.chunk.css",
-    "main.js": "/homeworks/static/js/main.bb30ac24.chunk.js",
-    "main.js.map": "/homeworks/static/js/main.bb30ac24.chunk.js.map",
+    "main.css": "/homeworks/static/css/main.fcf0dbc2.chunk.css",
+    "main.js": "/homeworks/static/js/main.4b769ae3.chunk.js",
+    "main.js.map": "/homeworks/static/js/main.4b769ae3.chunk.js.map",
     "runtime-main.js": "/homeworks/static/js/runtime-main.bf7329d5.js",
     "runtime-main.js.map": "/homeworks/static/js/runtime-main.bf7329d5.js.map",
-    "static/js/2.b593242d.chunk.js": "/homeworks/static/js/2.b593242d.chunk.js",
-    "static/js/2.b593242d.chunk.js.map": "/homeworks/static/js/2.b593242d.chunk.js.map",
+    "static/js/2.76e78ed4.chunk.js": "/homeworks/static/js/2.76e78ed4.chunk.js",
+    "static/js/2.76e78ed4.chunk.js.map": "/homeworks/static/js/2.76e78ed4.chunk.js.map",
     "index.html": "/homeworks/index.html",
-    "static/css/main.e2e0a11c.chunk.css.map": "/homeworks/static/css/main.e2e0a11c.chunk.css.map",
-    "static/js/2.b593242d.chunk.js.LICENSE.txt": "/homeworks/static/js/2.b593242d.chunk.js.LICENSE.txt",
+    "static/css/main.fcf0dbc2.chunk.css.map": "/homeworks/static/css/main.fcf0dbc2.chunk.css.map",
+    "static/js/2.76e78ed4.chunk.js.LICENSE.txt": "/homeworks/static/js/2.76e78ed4.chunk.js.LICENSE.txt",
     "static/media/SuperCheckbox.module.css": "/homeworks/static/media/cgedked.0d7c2269.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf7329d5.js",
-    "static/js/2.b593242d.chunk.js",
-    "static/css/main.e2e0a11c.chunk.css",
-    "static/js/main.bb30ac24.chunk.js"
+    "static/js/2.76e78ed4.chunk.js",
+    "static/css/main.fcf0dbc2.chunk.css",
+    "static/js/main.4b769ae3.chunk.js"
   ]
 }
