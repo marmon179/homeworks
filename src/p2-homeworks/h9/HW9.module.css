@@ -1,0 +1,21 @@
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time {
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+    color: #288a09;
+    font-family: 'Share Tech Mono', monospace;
+    text-shadow: 0 0 20px rgb(109, 208, 188),  0 0 20px rgba(10, 175, 230, 0);
+}
+.date{
+    letter-spacing: 0.1em;
+    font-family: 'Share Tech Mono', monospace;
+    padding-left: 115px;
+    color: #A3470B;
+}
+
