@@ -10,7 +10,7 @@ type SuperRadioPropsType = DefaultRadioPropsType & {
 
 const SuperRadio: React.FC<SuperRadioPropsType> = (
     {
-        type, name,
+        type, name, className,
         options, value,
         onChange, onChangeOption,
         ...restProps
@@ -23,22 +23,23 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     }
 
 
-    const finalRadioClassName = s.radio
-
     const mappedOptions: any[] = options ? options.map((o, i) => (
-        <label key={name + '-' + i} className={s.label}>
-            <input
-                className={finalRadioClassName}
-                type={'radio'}
-                name={name}
-                checked={o === value}
-                value={0}
-                onChange={onChangeCallback}
-                {...restProps}
-                // name, checked, value, onChange
-            />
-            {o}
-        </label>
+        <div className={s.body}>
+            <label key={name + '-' + i} className={s.label}>
+                <input
+                    className={s.radio}
+                    type={'radio'}
+                    name={name}
+                    checked={o === value}
+                    value={o}
+                    onChange={onChangeCallback}
+                    // name, checked, value, onChange
+                    {...restProps}
+                />
+                <div className={s.radDesign}/>
+                <div className={s.RadText}>{o}</div>
+            </label>
+        </div>
     )) : []
 
     return (
