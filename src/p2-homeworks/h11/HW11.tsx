@@ -1,10 +1,10 @@
-import React, {useState} from 'react'
+import React, {ChangeEvent, useState} from 'react'
 import {makeStyles, Slider} from '@material-ui/core';
 import s from './HW11.module.css'
 
 function HW11() {
-    const [value1, setValue1] = useState(10)
-    const [value2, setValue2] = useState([9,30])
+    const [value1, setValue1] = useState<number>(10)
+    const [value2, setValue2] = useState<number[]>([9, 30])
     const useStyles = makeStyles({
         root: {
             width: 200,
@@ -18,11 +18,11 @@ function HW11() {
 
     const classes = useStyles();
     const classes2 = useStyles2();
-    const handleChange = (event: any, newValue: any) => setValue1(newValue)
-    const handleChange2 = (event: any, newValue: any) => setValue2(newValue)
+    const handleChange = (event: ChangeEvent<{}>, newValue: any) => setValue1(newValue)
+    const handleChange2 = (event: ChangeEvent<{}>, newValue: any) => setValue2(newValue)
 
     return (
-        <div >
+        <div>
             <hr/>
             homeworks 11
 
@@ -37,7 +37,7 @@ function HW11() {
                         onChange={handleChange}
                         value={value1}
                         aria-labelledby="continuous-slider"
-                        color = 'secondary'
+                        color="secondary"
                     />
 
 
