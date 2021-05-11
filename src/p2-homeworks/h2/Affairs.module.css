@@ -21,6 +21,8 @@ button:active {
 }
 .affair {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .item {
     margin: 10px;
