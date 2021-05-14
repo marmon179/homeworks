@@ -1,20 +1,26 @@
-import React from 'react';
-import {Meta, Story} from '@storybook/react';
-import HW12 from './HW12';
-import {HW12Decorator} from '../../stories/HW12Decorator'
-
+import React, {useState} from 'react';
+import s from '../p2-homeworks/h12/HW12.module.css';
+import SuperRadio from '../h7/common/c6-SuperRadio/SuperRadio';
 
 export default {
-    title: 'HW12',
-    component: HW12,
-    decorators: [HW12Decorator]
-} as Meta;
+    title: 'SuperRadioWithTheme'
+}
 
-const Template: Story = () => <HW12/>;
+export const Theme = () => {
+    const themes = ['blue', 'red', 'green','yellow' ]
+    let [theme, setTheme] = useState(themes[3])
 
-export const HW12Example = Template.bind({})
-
-export const SuperRadioExample = Template.bind({})
-SuperRadioExample.args = {
-
+    return (
+        <div className={s[theme]}>
+        <span className={s[theme + '-text']}>
+                homeworks 12
+            </span>
+            <SuperRadio
+                name={'radio'}
+                options={themes}
+                value={theme}
+                onChangeOption={setTheme}
+            />
+        </div>
+    );
 }
