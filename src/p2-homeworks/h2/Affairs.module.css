@@ -1,24 +1,3 @@
-.someClass {
-
-}
-.button {
-    /*margin: 10px;*/
-    /*width: 60px;*/
-
-    /*background: #29be0b;*/
-    /*color: #200bc6;*/
-    /*outline: none;*/
-}
-
-.button:focus {
-    /*outline: #200bc6 solid 1px;*/
-}
-button:active {
-    /*background: #200bc6;*/
-}
-.active {
-    /*background: #333333;*/
-}
 .affair {
     display: flex;
     align-items: center;

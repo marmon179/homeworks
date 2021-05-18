@@ -26,7 +26,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                 />
                 <div className={s.error}>{error}</div>
             </div>
-                <SuperButton onClick={addUser}  disabled={!name}>add</SuperButton>
+            <SuperButton onClick={addUser} disabled={!name}>add</SuperButton>
             {/*<button onClick={addUser} className={s.button} disabled={!name}>add</button>*/}
             <div className={s.count}>{totalUsers}</div>
         </div>

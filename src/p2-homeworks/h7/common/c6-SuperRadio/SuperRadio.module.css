@@ -1,4 +1,4 @@
-.body{
+.body {
     display: flex;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', sans-serif;
     margin-left: 10px;
@@ -16,10 +16,12 @@
     cursor: pointer;
     transition: .3s;
 }
+
 .label:hover,
-label:focus-within{
+label:focus-within {
     background: #cbe8e2;
 }
+
 .radio {
     position: absolute;
     left: 0;
@@ -29,6 +31,7 @@ label:focus-within{
     opacity: 0;
     z-index: -1;
 }
+
 .radDesign {
     width: 22px;
     height: 22px;
@@ -37,7 +40,8 @@ label:focus-within{
     background: linear-gradient(to right bottom, #076855, #6DD0BC);
     position: relative;
 }
-.radDesign:before{
+
+.radDesign:before {
     content: '';
 
     display: inline-block;
@@ -50,10 +54,11 @@ label:focus-within{
     transition: .3s;
 }
 
-.radio:checked+.radDesign:before{
+.radio:checked + .radDesign:before {
     transform: scale(0);
 }
-.RadText{
+
+.RadText {
     color: hsl(0, 0%, 60%);
     margin-left: 14px;
     letter-spacing: 3px;
@@ -63,6 +68,7 @@ label:focus-within{
 
     transition: .3s;
 }
-.radio:checked~.RadText {
+
+.radio:checked ~ .RadText {
     color: hsl(0, 0%, 40%);
 }

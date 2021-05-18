@@ -1,13 +1,15 @@
 .greeting {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
 }
+
 .error {
     color: #c70707;
     height: 21px;
     margin-left: 10px;
     border-radius: 7px;
 }
+
 .input {
     margin: 10px;
     width: 200px;
@@ -32,6 +34,7 @@
     box-shadow: 0 0 10px #c70707;
     border-radius: 7px;
 }
+
 .button {
     margin: 10px;
     width: 60px;
@@ -40,18 +43,21 @@
     color: #200bc6;
     outline: none;
 }
+
 .button:focus {
     outline: #200bc6;
 }
+
 .button.active {
     background: #29be0b;
 }
+
 .button:disabled {
     color: orange;
 }
 
 .count {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     font-weight: bold;
 }

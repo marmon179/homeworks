@@ -42,12 +42,12 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         onBlur && onBlur(e)
     }
     const onDoubleClickCallBack = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
-       setEditMode(true) // setEditMode() // включить editMode при двойном клике
+        setEditMode(true) // setEditMode() // включить editMode при двойном клике
 
         onDoubleClick && onDoubleClick(e)
     }
 
-    const spanClassName = `${s.span} ${className ? className:''}`
+    const spanClassName = `${s.span} ${className ? className : ''}`
 
     return (
         <>
@@ -68,7 +68,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                         {...restSpanProps}
                     >
                         {/*если нет захардкодженного текста для спана, то значение инпута*/}
-                        ✎ { children || restProps.value}
+                        ✎ {children || restProps.value}
                     </span>
                 )
             }

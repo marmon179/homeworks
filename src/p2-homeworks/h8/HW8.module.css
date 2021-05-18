@@ -1,14 +1,16 @@
-.affair{
+.affair {
     display: flex;
     justify-content: space-around;
 }
-.item{
+
+.item {
     margin: 10px;
     width: 100px;
     font-size: 1.5rem;
     font-weight: bold;
 }
-.boxButton{
+
+.boxButton {
     display: flex;
     align-items: center;
     justify-content: center;

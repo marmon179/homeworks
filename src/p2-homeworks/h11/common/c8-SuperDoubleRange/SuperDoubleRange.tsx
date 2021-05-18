@@ -6,9 +6,9 @@ import Slider from '@material-ui/core/Slider';
 
 
 type SuperDoubleRangePropsType = {
-    onChangeRange?: (value:number | number[]) => void
+    onChangeRange?: (value: number | number[]) => void
     value: [number, number]
-    onChangeRangeO?: (value:number) => void
+    onChangeRangeO?: (value: number) => void
     // min, max, step, disable, ...
 }
 
@@ -28,8 +28,8 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     return (
         <Slider
             style={{
-                color:"grey",
-                width:500
+                color: 'grey',
+                width: 500
             }}
             value={value}
             onChange={handleChange}

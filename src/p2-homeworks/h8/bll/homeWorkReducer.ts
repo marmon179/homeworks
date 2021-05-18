@@ -31,9 +31,9 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
             return state
     }
 }
-export const sortPeopleAC = (payload:'up' | 'down'):SortPeopleActionType => {
+export const sortPeopleAC = (payload: 'up' | 'down'): SortPeopleActionType => {
     return {type: 'sort', payload}
 }
-export const checkPeopleAC = (payload:number):CheckActionType => {
+export const checkPeopleAC = (payload: number): CheckActionType => {
     return {type: 'check', payload}
 }

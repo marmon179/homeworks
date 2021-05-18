@@ -22,12 +22,14 @@ function HW12() {
             <span className={s[theme + '-text']}>
                 homeworks 12
             </span>
-            <SuperRadio
-                value={theme}
-                name={'radio'}
-                options={themes}
-                onChangeOption={onChangeCallback}
-            />
+            <div>
+                <SuperRadio
+                    value={theme}
+                    name={'radio'}
+                    options={themes}
+                    onChangeOption={onChangeCallback}
+                />
+            </div>
             {/*should work (должно работать)*/}
             {/*SuperSelect or SuperRadio*/}
 

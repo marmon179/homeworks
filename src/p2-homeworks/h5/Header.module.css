@@ -1,20 +1,22 @@
-.link{
+.link {
     text-decoration: none; /*убрать подчеркивание с сылки*/
     margin: 10px;
     color: #8fa7a2;
     font-weight: 700;
     text-shadow: none;
 }
-.link:before{
+
+.link:before {
     color: #fff;
     content: attr(data-hover);
     position: absolute;
     transition: transform 0.3s, opacity 0.3s;
 }
 
-.link:hover{
+.link:hover {
     color: #1abc9c;
 }
+
 .active {
     color: #FAAB22;
 }
@@ -37,7 +39,7 @@
     transform: translate(-240px);
 }
 
-.header:hover{
+.header:hover {
     transition-duration: 500ms;
     transform: translate(0);
 }

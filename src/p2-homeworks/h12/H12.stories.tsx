@@ -7,7 +7,7 @@ export default {
 }
 
 export const Theme = () => {
-    const themes = ['blue', 'red', 'green','yellow' ]
+    const themes = ['blue', 'red', 'green', 'yellow']
     let [theme, setTheme] = useState(themes[3])
 
     return (
